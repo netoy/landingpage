@@ -1,0 +1,23 @@
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navlist {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    display: flex;
+}
