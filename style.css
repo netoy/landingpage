@@ -1,23 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap');
+
+body {
+    font-family: 'Roboto';
+}
+
+.header {
+    background: #1f2937;
+    display: flex;
+    align-items: center;
+    color: #f9faf8;
+    
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.navlist {
+    flex-direction: row;
+}
+
 ul {
     list-style-type: none;
 }
 
 a {
     text-decoration: none;
-}
-
-.nav {
-    display: flex;
-    margin: 0px;
-    padding: 0px;
-}
-
-.navlist {
-    display: flex;
-    margin: 0px;
-    padding: 0px;
-}
-
-li {
-    display: flex;
 }
