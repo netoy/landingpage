@@ -2,14 +2,15 @@
 
 body {
     font-family: 'Roboto';
+    margin: 0;
 }
 
-.header {
-    background: #1f2937;
+.header-nav {
+    background-color: #1f2937;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
     color: #f9faf8;
-    
 }
 
 .logo {
@@ -18,14 +19,55 @@ body {
     font-weight: 900;
 }
 
-.navlist {
-    flex-direction: row;
-}
 
 ul {
+    display: flex;
     list-style-type: none;
+    gap: 8px;
 }
 
 a {
     text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.quote-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 5% 28%;
+}
+
+.quotation {
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    margin: 0px;
+}
+
+.name {
+    text-align: end;
+    margin: 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f9faf8;
+    padding: 20px;
 }
