@@ -1,16 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap');
 
 body {
+    
     font-family: 'Roboto';
     margin: 0;
 }
 
+/*------------Header Section-------------*/
 .header-nav {
     background-color: #1f2937;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    color: #f9faf8;
+    color: #f9faf8;  
 }
 
 .logo {
@@ -18,7 +20,6 @@ body {
     color: #f9faf8;
     font-weight: 900;
 }
-
 
 ul {
     display: flex;
@@ -32,13 +33,44 @@ a {
     font-size: 18px;
 }
 
+/*--------------Information Section-----------*/
+.inform-title {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 900;
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+
+.inform-sec-container {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding-bottom: 100px;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+}
+
+.info {
+    max-width: 300px;
+}
+
+.text {
+    text-align: center;
+}
+
+/*--------------Quotation Section-------------*/
+
 .quote-sec {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
-
 }
+
 
 .quote {
     display: flex;
@@ -53,6 +85,7 @@ a {
     font-style: italic;
     color: #1f2937;
     margin: 0px;
+    text-align: left;
 }
 
 .name {
@@ -62,7 +95,11 @@ a {
     font-weight: bold;
 }
 
+/*---------------Sign Up Section--------------- */
 
+
+
+/* --------------Footer Section---------------- */
 .footer {
     background-color: #1f2937;
     display: flex;
