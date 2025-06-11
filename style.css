@@ -33,7 +33,52 @@ a {
     font-size: 18px;
 }
 
+/*-------------Hero Header-------------*/
+
+.header-bot {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-evenly;
+}
+
+.hero-bot {
+    display: flex;
+    padding: 50px 100px 50px 100px;
+   
+}
+
+.hero-main-text {
+    display: flex;
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-sec-text {
+    display: flex;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-sign {
+    display: flex;
+    background-color: #3882f6;
+    color: white;
+    border: transparent;
+    padding: 10px 10px; 
+    border-radius: 5px;  
+    cursor: pointer 
+}
+
+.petmalu {
+    display: flex;
+    padding-right: 100px;
+    width: 700px;
+    height: 300px;
+}
+
 /*--------------Information Section-----------*/
+
 .inform-title {
     text-align: center;
     font-size: 26px;
@@ -49,13 +94,13 @@ a {
     padding-bottom: 100px;
 }
 
-img {
-    width: 300px;
-    height: 200px;
-}
-
 .info {
     max-width: 300px;
+}
+
+.infoimg {
+    height: auto;
+    width: 300px;
 }
 
 .text {
@@ -70,7 +115,6 @@ img {
     align-items: center;
     margin: auto;
 }
-
 
 .quote {
     display: flex;
@@ -97,7 +141,48 @@ img {
 
 /*---------------Sign Up Section--------------- */
 
+.bottom-container {
+    display: flex;
+    padding: 75px;
+    justify-content: center;
+}
 
+.bottom-sign-container {
+    background-color: #3882f6;
+    padding: 50px 120px; 
+    border-radius: 5px;
+    display: flex;
+    gap: 150px;
+}
+
+.bottom-sign-container{
+    display: flex;
+}
+
+.text-top {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.text-bot {
+    display: block;
+    color: white;
+    margin-top: 5px;
+    font-size: 18px;  
+}
+
+.bottom-sign-button {
+    background-color: transparent;
+    color: white;
+    padding: 10px 10px;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer
+}
 
 /* --------------Footer Section---------------- */
 .footer {
